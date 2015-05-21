@@ -1,0 +1,5 @@
+cron:
+- description: Autoscaling
+  url: /autoscaler
+  target: scaler
+  schedule: every 1 mins

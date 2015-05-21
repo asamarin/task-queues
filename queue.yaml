@@ -1,0 +1,6 @@
+queue:
+- name: worker
+  target: worker
+  rate: 10/s
+  bucket_size: 100
+  max_concurrent_requests: 40
